@@ -46,7 +46,7 @@ public class Test_divide {
         assertEquals(expected, actual);
     }
     @Test
-    public void divide_DevitionFromZero_returnsInt() {
+    public void divide_DevitionFromZero_returnsZero() {
         //Arrange
         int testNumber1 = -10;
         int testNumber2 = 0;
